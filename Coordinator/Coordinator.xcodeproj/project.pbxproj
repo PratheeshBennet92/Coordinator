@@ -26,6 +26,10 @@
 		4A4650D0264B06A2002350BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4650CE264B06A2002350BA /* LaunchScreen.storyboard */; };
 		4A4650DB264B06A2002350BA /* CoordinatorSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650DA264B06A2002350BA /* CoordinatorSampleAppTests.swift */; };
 		4A4650E6264B06A2002350BA /* CoordinatorSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650E5264B06A2002350BA /* CoordinatorSampleAppUITests.swift */; };
+		4A4650F2264B0DFE002350BA /* Tab1ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650F1264B0DFE002350BA /* Tab1ViewController1.swift */; };
+		4A4650F4264B0E1E002350BA /* Tab1ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650F3264B0E1E002350BA /* Tab1ViewController2.swift */; };
+		4A4650F6264B0E2D002350BA /* Tab2ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650F5264B0E2D002350BA /* Tab2ViewController1.swift */; };
+		4A4650F8264B0E3B002350BA /* Tab2ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650F7264B0E3B002350BA /* Tab2ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,10 @@
 		4A4650E1264B06A2002350BA /* CoordinatorSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4650E5264B06A2002350BA /* CoordinatorSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorSampleAppUITests.swift; sourceTree = "<group>"; };
 		4A4650E7264B06A2002350BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4650F1264B0DFE002350BA /* Tab1ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController1.swift; sourceTree = "<group>"; };
+		4A4650F3264B0E1E002350BA /* Tab1ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController2.swift; sourceTree = "<group>"; };
+		4A4650F5264B0E2D002350BA /* Tab2ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController1.swift; sourceTree = "<group>"; };
+		4A4650F7264B0E3B002350BA /* Tab2ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +195,7 @@
 		4A4650C2264B06A1002350BA /* CoordinatorSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A4650F9264B0EB4002350BA /* Views */,
 				4A4650C3264B06A1002350BA /* AppDelegate.swift */,
 				4A4650CC264B06A2002350BA /* Assets.xcassets */,
 				4A4650CE264B06A2002350BA /* LaunchScreen.storyboard */,
@@ -211,6 +220,17 @@
 				4A4650E7264B06A2002350BA /* Info.plist */,
 			);
 			path = CoordinatorSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		4A4650F9264B0EB4002350BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A4650F1264B0DFE002350BA /* Tab1ViewController1.swift */,
+				4A4650F3264B0E1E002350BA /* Tab1ViewController2.swift */,
+				4A4650F5264B0E2D002350BA /* Tab2ViewController1.swift */,
+				4A4650F7264B0E3B002350BA /* Tab2ViewController2.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4650F4264B0E1E002350BA /* Tab1ViewController2.swift in Sources */,
+				4A4650F6264B0E2D002350BA /* Tab2ViewController1.swift in Sources */,
+				4A4650F2264B0DFE002350BA /* Tab1ViewController1.swift in Sources */,
+				4A4650F8264B0E3B002350BA /* Tab2ViewController2.swift in Sources */,
 				4A4650C4264B06A1002350BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

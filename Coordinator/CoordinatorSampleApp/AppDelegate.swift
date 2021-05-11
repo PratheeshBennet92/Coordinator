@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     controller.view.backgroundColor = .yellow
     window?.rootViewController = controller
     window?.makeKeyAndVisible()
-
     // Override point for customization after application launch.
     return true
   }
