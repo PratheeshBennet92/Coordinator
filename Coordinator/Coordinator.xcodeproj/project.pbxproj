@@ -22,9 +22,6 @@
 		4A464FA9264AFF32002350BA /* MainCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A464F9E264AFF32002350BA /* MainCoordinatable.swift */; };
 		4A464FAA264AFF32002350BA /* MainCoordinateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A464F9F264AFF32002350BA /* MainCoordinateClient.swift */; };
 		4A4650C4264B06A1002350BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650C3264B06A1002350BA /* AppDelegate.swift */; };
-		4A4650C6264B06A1002350BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650C5264B06A1002350BA /* SceneDelegate.swift */; };
-		4A4650C8264B06A1002350BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650C7264B06A1002350BA /* ViewController.swift */; };
-		4A4650CB264B06A1002350BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4650C9264B06A1002350BA /* Main.storyboard */; };
 		4A4650CD264B06A2002350BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4650CC264B06A2002350BA /* Assets.xcassets */; };
 		4A4650D0264B06A2002350BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4650CE264B06A2002350BA /* LaunchScreen.storyboard */; };
 		4A4650DB264B06A2002350BA /* CoordinatorSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4650DA264B06A2002350BA /* CoordinatorSampleAppTests.swift */; };
@@ -75,9 +72,6 @@
 		4A464F9F264AFF32002350BA /* MainCoordinateClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinateClient.swift; sourceTree = "<group>"; };
 		4A4650C1264B06A1002350BA /* CoordinatorSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4650C3264B06A1002350BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A4650C5264B06A1002350BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A4650C7264B06A1002350BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A4650CA264B06A1002350BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A4650CC264B06A2002350BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4650CF264B06A2002350BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4650D1264B06A2002350BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -194,9 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				4A4650C3264B06A1002350BA /* AppDelegate.swift */,
-				4A4650C5264B06A1002350BA /* SceneDelegate.swift */,
-				4A4650C7264B06A1002350BA /* ViewController.swift */,
-				4A4650C9264B06A1002350BA /* Main.storyboard */,
 				4A4650CC264B06A2002350BA /* Assets.xcassets */,
 				4A4650CE264B06A2002350BA /* LaunchScreen.storyboard */,
 				4A4650D1264B06A2002350BA /* Info.plist */,
@@ -397,7 +388,6 @@
 			files = (
 				4A4650D0264B06A2002350BA /* LaunchScreen.storyboard in Resources */,
 				4A4650CD264B06A2002350BA /* Assets.xcassets in Resources */,
-				4A4650CB264B06A1002350BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,9 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4650C8264B06A1002350BA /* ViewController.swift in Sources */,
 				4A4650C4264B06A1002350BA /* AppDelegate.swift in Sources */,
-				4A4650C6264B06A1002350BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A4650C9264B06A1002350BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A4650CA264B06A1002350BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A4650CE264B06A2002350BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
