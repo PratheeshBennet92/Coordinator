@@ -1,8 +1,9 @@
 import Foundation
 //Framework
-protocol TabCoordinateClient {
+public protocol TabCoordinateClient {
   var coordinator: TabCoordinatorDecorator! {get set}
   func setRoot()
+  func setUpChildCoordinators()
   init()
 }
 extension TabCoordinateClient {
