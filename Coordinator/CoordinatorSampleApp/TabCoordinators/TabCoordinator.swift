@@ -9,4 +9,7 @@ class TabCoordinator: TabCoordinateClient {
   func setUpChildCoordinators() {
     
   }
+  func setupTabViews() {
+    
+  }
 }

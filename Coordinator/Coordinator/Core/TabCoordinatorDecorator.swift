@@ -12,6 +12,7 @@ public class TabCoordinatorDecorator: TabbarCoordinatable {
   }
   public func setRoot() {
     self.window.rootViewController = self.rootViewController
+    self.window.makeKeyAndVisible()
   }
   func start() {
     self.childCoordinators = []
