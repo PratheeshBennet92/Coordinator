@@ -10,7 +10,7 @@ public class TabCoordinatorDecorator: TabbarCoordinatable {
     self.window = window
     start()
   }
-  func setRoot() {
+  public func setRoot() {
     self.window.rootViewController = self.rootViewController
   }
   func start() {
