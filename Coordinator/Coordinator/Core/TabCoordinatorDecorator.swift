@@ -2,10 +2,10 @@ import Foundation
 import UIKit
 //Framework
 public class TabCoordinatorDecorator: TabbarCoordinatable {
-  var childCoordinators: [MainCoordinateClient]?
-  var rootViewController: UITabBarController
+  public var childCoordinators: [MainCoordinateClient]?
+  public var rootViewController: UITabBarController
   var window: UIWindow
-  required init(window: UIWindow) {
+  public required init(window: UIWindow) {
     self.rootViewController = UITabBarController()
     self.window = window
     start()
@@ -14,7 +14,7 @@ public class TabCoordinatorDecorator: TabbarCoordinatable {
     self.window.rootViewController = self.rootViewController
     self.window.makeKeyAndVisible()
   }
-  func start() {
+  public func start() {
     self.childCoordinators = []
   }
 }
