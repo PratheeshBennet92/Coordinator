@@ -3,7 +3,7 @@ import UIKit
 /*class protocol https:www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/
  */
 //Framework
-protocol MainCoordinatable: AnyObject {
+public protocol MainCoordinatable: AnyObject {
   var navigationController: UINavigationController { get set }
   //We use an array of childCoordinators to prevent the child coordinators from getting deallocated.
   var childCoordinators: [CoordinatorClient]? { get set }
@@ -12,10 +12,10 @@ protocol MainCoordinatable: AnyObject {
 }
 extension MainCoordinatable {
   /// Add a child coordinator to the parent
-  func addChildCoordinator(_ childCoordinator: CoordinatorClient) {
+  public func addChildCoordinator(_ childCoordinator: CoordinatorClient) {
     self.childCoordinators?.append(childCoordinator)
   }
-  func removeChildCoordinator(_ childCoordinator: CoordinatorClient?) {
+  public func removeChildCoordinator(_ childCoordinator: CoordinatorClient?) {
     guard let safeaArrayCoordinators = self.childCoordinators,
       let coordinatorToRemove = childCoordinator else { return
     }
@@ -23,7 +23,7 @@ extension MainCoordinatable {
         self.childCoordinators?.remove(at: index)
     }
   }
-  func getCoordinator<T>(type: T.Type) -> T? {
+  public func getCoordinator<T>(type: T.Type) -> T? {
     //The point of generics is to operate on arguments generically, but you aren't giving the function any argument of a specific type to actually do any work on (hence the inability to infer one).
     let coordinator = self.childCoordinators?.filter({ (eachCoordinator) -> Bool in
       eachCoordinator is T

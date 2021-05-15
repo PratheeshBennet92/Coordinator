@@ -2,13 +2,13 @@ import Foundation
 import UIKit
 //Framework
 public class MainCoordinatorDecorator: MainCoordinatable {
-  var childCoordinators: [CoordinatorClient]?
-  var navigationController: UINavigationController
-  required init() {
+  public var childCoordinators: [CoordinatorClient]?
+  public var navigationController: UINavigationController
+  required public init() {
     self.navigationController = UINavigationController()
     start()
   }
-  func start() {
+  public func start() {
     self.childCoordinators = []
   }
 }

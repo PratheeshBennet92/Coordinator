@@ -6,8 +6,15 @@
 //
 
 import UIKit
-
-class Tab1ViewController1: UIViewController {
+import Coordinator
+protocol CoordinatorPushDelegate: AnyObject {
+  func push(_ coordinator: CoordinatorClient?)
+}
+class Tab1ViewController1: UIViewController, CoordinateableView {
+  var coordinator: CoordinatorClient?
+  var coordinatorDelegate: CoordinatorPushDelegate?
+  typealias CoordinatorDelegate = CoordinatorPushDelegate
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +22,10 @@ class Tab1ViewController1: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    coordinatorDelegate?.push(self.coordinator)
+  }
     
 
     /*

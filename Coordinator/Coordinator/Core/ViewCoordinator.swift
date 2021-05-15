@@ -12,7 +12,7 @@ public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: Co
     return decorator.hubViewController
   }
   var presenter: UINavigationController
-  required init(_ presenter: UINavigationController, delegate: MainCoordinateClient? = nil) {
+  public required init(_ presenter: UINavigationController, delegate: MainCoordinateClient? = nil) {
     self.presenter = presenter
     decorator = NavigateDecorator<T>(presenter)
     decorator.hubViewController.coordinator = self
