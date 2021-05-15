@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 //Framework
-class MainCoordinatorDecorator: MainCoordinatable {
+public class MainCoordinatorDecorator: MainCoordinatable {
   var childCoordinators: [CoordinatorClient]?
   var navigationController: UINavigationController
   required init() {
