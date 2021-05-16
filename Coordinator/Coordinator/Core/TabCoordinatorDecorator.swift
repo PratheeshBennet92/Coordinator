@@ -1,6 +1,5 @@
 import Foundation
 import UIKit
-//Framework
 public class TabCoordinatorDecorator: TabbarCoordinatable {
   public var childCoordinators: [MainCoordinateClient]?
   public var rootViewController: UITabBarController

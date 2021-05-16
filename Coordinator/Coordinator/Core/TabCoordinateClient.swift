@@ -1,5 +1,4 @@
 import Foundation
-//Framework
 public protocol TabCoordinateClient {
   var coordinator: TabCoordinatorDecorator! {get set}
   /// Use this method to set the UITabvViewController as rootViewController of the window

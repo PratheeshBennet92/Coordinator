@@ -1,6 +1,5 @@
 import Foundation
 import UIKit
-//Framework
 public protocol CoordinateableView {
   var coordinator: CoordinatorClient? {get set}
   associatedtype CoordinatorDelegate

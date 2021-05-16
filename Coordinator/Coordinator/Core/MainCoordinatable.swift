@@ -1,8 +1,5 @@
 import Foundation
 import UIKit
-/*class protocol https:www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/
- */
-//Framework
 public protocol MainCoordinatable: AnyObject {
   var navigationController: UINavigationController { get set }
   //We use an array of childCoordinators to prevent the child coordinators from getting deallocated.
