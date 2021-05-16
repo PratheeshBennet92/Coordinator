@@ -12,6 +12,7 @@ public protocol TabCoordinateClient {
   init()
 }
 extension TabCoordinateClient {
+  /// Inject instance of TabCoordinatorDecorator
   public init(coordinator: TabCoordinatorDecorator) {
     self.init()
     self.coordinator = coordinator

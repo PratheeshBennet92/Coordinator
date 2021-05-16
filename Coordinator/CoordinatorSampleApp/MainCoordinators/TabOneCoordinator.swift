@@ -4,11 +4,11 @@ class TabOneCoordinator: MainCoordinateClient {
   var coordinator: MainCoordinatorDecorator!
   required init() {}
   func setRoot() {
-    showSFirstViewController()
+    showFirstViewController()
   }
-  private func showSFirstViewController() {
-    let scheduleCoordinator = ViewCoordinator<Tab1ViewController1>(self.coordinator.navigationController, delegate: self)
-    scheduleCoordinator.setRoot()
-    self.coordinator.addChildCoordinator(scheduleCoordinator)
+  private func showFirstViewController() {
+    let tabOneViewOneCoordinator = ViewCoordinator<Tab1ViewController1>(self.coordinator.navigationController, delegate: self)
+    tabOneViewOneCoordinator.setRoot()
+    self.coordinator.addChildCoordinator(tabOneViewOneCoordinator)
   }
 }

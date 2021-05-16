@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     if let appwindow = self.window {
       tabCoordinator = TabCoordinator(coordinator: TabCoordinatorDecorator(window: appwindow))
       tabCoordinator?.setRoot()
+      tabCoordinator?.setUpChildCoordinators()
     }
     // Override point for customization after application launch.
     return true
