@@ -6,8 +6,17 @@
 //
 
 import UIKit
-
-class Tab1ViewController2: UIViewController {
+import Coordinator
+protocol Tab1ViewController2CoordinatorDelegate: AnyObject {
+  func pop(_ coordinator: CoordinatorClient?)
+}
+class Tab1ViewController2: UIViewController, CoordinateableView {
+  var coordinator: CoordinatorClient?
+  
+  var coordinatorDelegate: Tab1ViewController2CoordinatorDelegate?
+  
+  typealias CoordinatorDelegate = Tab1ViewController2CoordinatorDelegate
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +24,12 @@ class Tab1ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    if self.isMovingFromParent {
+      coordinatorDelegate?.pop(coordinator)
+    }
+  }
     
 
     /*

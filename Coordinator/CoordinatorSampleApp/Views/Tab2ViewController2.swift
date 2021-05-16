@@ -6,8 +6,17 @@
 //
 
 import UIKit
-
-class Tab2ViewController2: UIViewController {
+import Coordinator
+protocol Tab2ViewController2CoordinatorDelegate: AnyObject {
+  func pop(_ coordinator: CoordinatorClient?)
+}
+class Tab2ViewController2: UIViewController, CoordinateableView {
+  var coordinator: CoordinatorClient?
+  
+  var coordinatorDelegate: Tab2ViewController2CoordinatorDelegate?
+  
+  typealias CoordinatorDelegate = Tab2ViewController2CoordinatorDelegate
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +24,12 @@ class Tab2ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    if self.isMovingFromParent {
+      coordinatorDelegate?.pop(coordinator)
+    }
+  }
 
     /*
     // MARK: - Navigation
