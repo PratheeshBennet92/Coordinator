@@ -6,8 +6,17 @@
 //
 
 import UIKit
-
-class Tab2ViewController1: UIViewController {
+import Coordinator
+protocol Tab2ViewController1CoordinatorDelegate: AnyObject {
+  func pop(_ coordinator: CoordinatorClient?)
+}
+class Tab2ViewController1: UIViewController, CoordinateableView {
+  var coordinator: CoordinatorClient?
+  
+  var coordinatorDelegate: Tab2ViewController1CoordinatorDelegate?
+  
+  typealias CoordinatorDelegate = Tab2ViewController1CoordinatorDelegate
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,13 +7,13 @@
 
 import UIKit
 import Coordinator
-protocol CoordinatorPushDelegate: AnyObject {
+protocol Tab1ViewController1CoordinatorDelegate: AnyObject {
   func push(_ coordinator: CoordinatorClient?)
 }
 class Tab1ViewController1: UIViewController, CoordinateableView {
   var coordinator: CoordinatorClient?
-  var coordinatorDelegate: CoordinatorPushDelegate?
-  typealias CoordinatorDelegate = CoordinatorPushDelegate
+  var coordinatorDelegate: Tab1ViewController1CoordinatorDelegate?
+  typealias CoordinatorDelegate = Tab1ViewController1CoordinatorDelegate
   
 
     override func viewDidLoad() {
