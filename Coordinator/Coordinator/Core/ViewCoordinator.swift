@@ -17,15 +17,19 @@ public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: Co
     decorator.hubViewController.coordinator = self
     decorator.hubViewController.coordinatorDelegate = delegate as? T.CoordinatorDelegate
   }
+  /// Push viewcontroller on the navigation controller
   public func push() {
     decorator.push()
   }
+  /// Push viewcontroller over the navigation controller
   public func present() {
     decorator.present()
   }
+  /// Set root view controller on navigation controller
   public func setRoot() {
     decorator.setRoot()
   }
+  /// Dismiss presented view controller
   public func dismiss() {
     decorator.dismiss()
   }
