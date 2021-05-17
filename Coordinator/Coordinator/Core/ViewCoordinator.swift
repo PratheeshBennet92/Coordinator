@@ -5,6 +5,10 @@ public protocol CoordinateableView {
   associatedtype CoordinatorDelegate
   var coordinatorDelegate: CoordinatorDelegate? { get set }
 }
+/** ViewCoordinator performs navigation mechanisms like pushing view, presenting view, setting root view and dismissing view
+    - T represents the view controller associated with the coordinator
+    - NavigateDecorator holds all the default function definitions wrapped from the coordinator protocol and base coordinator protocol and acts on the generic view controller
+ */
 public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: CoordinateableView {
   private let decorator: NavigateDecorator<T>
   var view: T? {

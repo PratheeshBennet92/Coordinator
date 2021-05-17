@@ -1,6 +1,8 @@
 import Foundation
 import UIKit
-//Framework
+/**
+  NavigateDecorator holds all the default function definitions wrapped from the coordinator protocol and base coordinator protocol and acts on the generic view controller
+ */
 class NavigateDecorator<T: UIViewController>: Coordinator {
   var hubViewController: T
   typealias View = T
