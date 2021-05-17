@@ -5,6 +5,7 @@ public class TabCoordinatorDecorator: TabbarCoordinatable {
   public var childCoordinators: [MainCoordinateClient]?
   public var rootViewController: UITabBarController
   var window: UIWindow
+  /// - Parameters: MainCoordinatorDecorator
   public required init(window: UIWindow) {
     self.rootViewController = UITabBarController()
     self.window = window

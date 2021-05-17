@@ -13,9 +13,12 @@ public protocol MainCoordinatable: AnyObject {
 }
 extension MainCoordinatable {
   /// Add a child coordinator to the parent
+  /// - Parameters: Child coordinator
   public func addChildCoordinator(_ childCoordinator: CoordinatorClient) {
     self.childCoordinators?.append(childCoordinator)
   }
+  /// Remove child coordinator from the parent
+  /// - Parameters: Child coordinator
   public func removeChildCoordinator(_ childCoordinator: CoordinatorClient?) {
     guard let safeaArrayCoordinators = self.childCoordinators,
       let coordinatorToRemove = childCoordinator else { return

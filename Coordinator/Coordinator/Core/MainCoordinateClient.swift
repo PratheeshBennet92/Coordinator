@@ -7,6 +7,8 @@ public protocol MainCoordinateClient {
   init()
 }
 extension MainCoordinateClient {
+  /// Init method
+  /// - Parameters: MainCoordinatorDecorator
   public init(mainCoordinator: MainCoordinatorDecorator) {
     self.init()
     self.coordinator = mainCoordinator
