@@ -185,6 +185,7 @@
 		4A464F94264AFF21002350BA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4A4A8C8026529E98003E2CED /* TabBarCoordinator */,
 				4A464F98264AFF31002350BA /* BaseCoordinator.swift */,
 				4A464F99264AFF31002350BA /* Coordinator.swift */,
 				4A464F9D264AFF32002350BA /* CoordinatorClient.swift */,
@@ -192,9 +193,6 @@
 				4A464F9F264AFF32002350BA /* MainCoordinateClient.swift */,
 				4A464F9C264AFF31002350BA /* MainCoordinatorDecorator.swift */,
 				4A464F96264AFF31002350BA /* NavigateDecorator.swift */,
-				4A464F9B264AFF31002350BA /* TabbarCoordinatable.swift */,
-				4A464F95264AFF31002350BA /* TabCoordinateClient.swift */,
-				4A464F97264AFF31002350BA /* TabCoordinatorDecorator.swift */,
 				4A464F9A264AFF31002350BA /* ViewCoordinator.swift */,
 				4A4A8C7E26529502003E2CED /* CoordinatableView.swift */,
 			);
@@ -259,6 +257,32 @@
 				4A4EB0FA2651AC2200B70994 /* TabTwoCoordinator.swift */,
 			);
 			path = MainCoordinators;
+			sourceTree = "<group>";
+		};
+		4A4A8C8026529E98003E2CED /* TabBarCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A8C8226529EAF003E2CED /* Interface */,
+				4A4A8C8126529EAA003E2CED /* Core */,
+			);
+			path = TabBarCoordinator;
+			sourceTree = "<group>";
+		};
+		4A4A8C8126529EAA003E2CED /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4A464F9B264AFF31002350BA /* TabbarCoordinatable.swift */,
+				4A464F97264AFF31002350BA /* TabCoordinatorDecorator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4A4A8C8226529EAF003E2CED /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4A464F95264AFF31002350BA /* TabCoordinateClient.swift */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
