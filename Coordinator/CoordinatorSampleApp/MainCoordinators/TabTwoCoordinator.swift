@@ -14,9 +14,9 @@ class TabTwoCoordinator: MainCoordinateClient {
 }
 extension TabTwoCoordinator: Tab2ViewController1CoordinatorDelegate {
   func push(_ coordinator: CoordinatorClient?) {
-    let tabOneViewOneCoordinator = ViewCoordinator<Tab2ViewController2>(self.coordinator.navigationController, delegate: self)
-    tabOneViewOneCoordinator.push()
-    self.coordinator.addChildCoordinator(tabOneViewOneCoordinator)
+    let viewOneCoordinator = ViewCoordinator<Tab2ViewController2>(self.coordinator.navigationController, delegate: self)
+    viewOneCoordinator.push()
+    self.coordinator.addChildCoordinator(viewOneCoordinator)
   }
 }
 extension TabTwoCoordinator: Tab2ViewController2CoordinatorDelegate {

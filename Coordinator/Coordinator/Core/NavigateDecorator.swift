@@ -15,7 +15,6 @@ class NavigateDecorator<T: UIViewController>: Coordinator {
     self.presenter.pushViewController(hubViewController, animated: true)
   }
   func present() {
-    hubViewController.modalPresentationStyle = .overFullScreen
     self.presenter.present(hubViewController, animated: true, completion: nil)
   }
   func setRoot() {

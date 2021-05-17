@@ -1,4 +1,5 @@
 import Foundation
+/// Maincoordinators has to conform to MainCoordinateClient
 public protocol MainCoordinateClient {
   var coordinator: MainCoordinatorDecorator! {get set}
   /// Set the root view of the view coordinator
