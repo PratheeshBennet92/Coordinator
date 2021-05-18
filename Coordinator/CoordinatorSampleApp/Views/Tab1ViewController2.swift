@@ -11,7 +11,7 @@ protocol Tab1ViewController2CoordinatorDelegate: AnyObject {
   func pop(_ coordinator: CoordinatorClient?)
 }
 class Tab1ViewController2: UIViewController, CoordinateableView {
-  var coordinator: CoordinatorClient?
+  weak var coordinator: CoordinatorClient?
   
   var coordinatorDelegate: Tab1ViewController2CoordinatorDelegate?
   
