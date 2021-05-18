@@ -13,7 +13,7 @@ protocol Tab2ViewController2CoordinatorDelegate: AnyObject {
 class Tab2ViewController2: UIViewController, CoordinateableView {
   weak var coordinator: CoordinatorClient?
   
-  var coordinatorDelegate: Tab2ViewController2CoordinatorDelegate?
+  weak var coordinatorDelegate: Tab2ViewController2CoordinatorDelegate?
   
   typealias CoordinatorDelegate = Tab2ViewController2CoordinatorDelegate
   
