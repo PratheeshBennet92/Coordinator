@@ -34,6 +34,9 @@ class Tab1ViewController1: UIViewController, CoordinateableView {
     super.viewWillAppear(animated)
    
   }
+  deinit {
+    print("Tab1ViewController1 denint")
+  }
     
 
     /*

@@ -32,7 +32,9 @@ class Tab2ViewController1: UIViewController, CoordinateableView {
   @objc func buttonAction(sender: UIButton!) {
     coordinatorDelegate?.push(self.coordinator)
   }
-    
+  deinit {
+    print("Tab2ViewController1 denint")
+  }
 
     /*
     // MARK: - Navigation

@@ -30,7 +30,9 @@ class Tab1ViewController2: UIViewController, CoordinateableView {
       coordinatorDelegate?.pop(coordinator)
     }
   }
-    
+  deinit {
+    print("Tab1ViewController2 denint")
+  }
 
     /*
     // MARK: - Navigation
