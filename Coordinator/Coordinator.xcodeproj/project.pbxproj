@@ -272,7 +272,7 @@
 		4A4A8C8226529EAF003E2CED /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				4A464F95264AFF31002350BA /* TabCoordinateClient.swift */,
+				4A4E1F3B26538ADF007EF592 /* Protocols */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -302,11 +302,35 @@
 		4A4A8C852652BE9B003E2CED /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				4A464F9A264AFF31002350BA /* ViewCoordinator.swift */,
+				4A4E1F3C26538BE3007EF592 /* Wrapper */,
+				4A4E1F3A26538ABE007EF592 /* Protocols */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4A4E1F3A26538ABE007EF592 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
 				4A4A8C7E26529502003E2CED /* CoordinatableView.swift */,
 				4A464F9F264AFF32002350BA /* MainCoordinateClient.swift */,
 			);
-			path = Interface;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4A4E1F3B26538ADF007EF592 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4A464F95264AFF31002350BA /* TabCoordinateClient.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4A4E1F3C26538BE3007EF592 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4A464F9A264AFF31002350BA /* ViewCoordinator.swift */,
+			);
+			path = Wrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
