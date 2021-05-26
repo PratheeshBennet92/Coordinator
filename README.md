@@ -17,6 +17,6 @@ Without coordinators the navigation logics are present inside the view controlle
 ![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Coordinator.jpg)
 
 ## How to use?
-MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator to perform the navigations and presentations. MainCoordinatorDecorator manages the child coordinators.
+MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that enables to set the rootview of the navigation controller and manages the child coordinators which inturn manages the navigations and presentations.
 
-In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the rootviews and manages the main coordinators associated with each tab.
+In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
