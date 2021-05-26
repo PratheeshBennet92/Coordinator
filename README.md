@@ -14,7 +14,7 @@ The coordinators can manage the navigations of the relative context such as UIVi
 The coordinator frameworks does most of the heavylifting by implementing the navigation logics onbehalf of the host application. To engineer the coordinator pattern, the coordinator framework uses Generic Decorators to do the actual navigation and presentation behaviours. Decorator is a structural pattern that allows adding new behaviours to objects dynamically by placing them inside special wrapper objects. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators. Each child coordinator is spawned by its parent main coordinator. In the case of tabbar based application there will be a dedicated TabCoordinatorr that manages all the main coordinators associated with each tab.
 
 
-## Architecture
+## Coordinator Framework Architecture
 ![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Coordinator.jpg)
 
 ## How to use?
