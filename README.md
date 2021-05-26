@@ -2,7 +2,7 @@
 ## What is a coordinator?
 Coordinator — a person whose job is to organise events or activities and to negotiate with others in order to ensure they work together effectively. 
 
-In this context the navigation coordinators hold the exclusive responsibility of organising the navigations and flows in app instead of view-controllers owning the navigation responsibility. So you can think of coordinators as the Air Traffic Controller in a busy airport who carefully coordinates like who lands and who takes off in the runway.
+Navigation coordinators hold the exclusive responsibility of organising the navigations and flows in app instead of view-controllers owning the navigation responsibility. So you can think of coordinators as the Air Traffic Controller in a busy airport who carefully coordinates like who lands and who takes off in the runway.
 
 ## History
 The term was coined by Khanlou. Please refer the link for more insights. 
