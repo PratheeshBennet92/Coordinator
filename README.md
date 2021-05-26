@@ -11,5 +11,7 @@ https://khanlou.com/2015/01/the-coordinator/
 ## Coordinators
 The coordinators can manage the navigations of the relative context such as UIViewController in the case of a ChildCoordinator and UINavigationController in the case of MainCoordinator which instantiates and establishes the relation between the various child coordinators. To engineer the coordinator pattern further, the coordinator framework uses Generic Decorators to do the actual navigation and presentation behaviours. Decorator is a structural pattern that allows adding new behaviours to objects dynamically by placing them inside special wrapper objects. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators.
 
+Without coordinators the navigation logics are present inside the view controller which doesn’t make the code base scalable, maintainable and reusable. We end up in having the tight coupling of each view controller holding the information about the next view controller to be navigated.
+
 ## Architecture
 ![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Coordinator.jpg)
