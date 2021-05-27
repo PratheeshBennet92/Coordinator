@@ -22,7 +22,7 @@ You can drag and place the Coordinator.framework in your application and create 
 
 MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that manages the child coordinators which inturn manages the rootview, navigations and presentations.
 
-MainCoordinator
+#### MainCoordinator
 ```
 class MainCoordinator: MainCoordinateClient {
   var coordinator: MainCoordinatorDecorator!
@@ -36,13 +36,14 @@ extension MainCoordinator: YourViewControllerCoordinatorDelegate {
   }
 }
 ```
-Inside MainCoordinator
+#### ChildCoordinator
 
 ```
 let childCoordinator = ViewCoordinator<YourViewController>(self.coordinator.navigationController, delegate: self)
 ```
 In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
 
+#### TabCoordinator
 ```
 class TabCoordinator: TabCoordinateClient {
   var coordinator: TabCoordinatorDecorator!
@@ -64,6 +65,18 @@ class TabCoordinator: TabCoordinateClient {
   private func setupTabTwoJourney() {
     // configure main coordinator
   }
+}
+```
+#### ViewController
+The viewcontroller has to conform to the CoordinateableView protocol.
+```
+protocol YourViewControllerCoordinatorDelegate: AnyObject {
+  func push(_ coordinator: CoordinatorClient?)
+}
+class YourViewController: UIViewController, CoordinateableView {
+  weak var coordinator: CoordinatorClient?
+  weak var coordinatorDelegate: Tab1ViewController1CoordinatorDelegate?
+  typealias CoordinatorDelegate = Tab1ViewController1CoordinatorDelegate
 }
 ```
 
