@@ -22,7 +22,50 @@ You can drag and place the Coordinator.framework in your application and create 
 
 MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that manages the child coordinators which inturn manages the rootview, navigations and presentations.
 
+MainCoordinator
+```
+class MainCoordinator: MainCoordinateClient {
+  var coordinator: MainCoordinatorDecorator!
+  required init() {}
+  func setRoot() {
+   // set rootview
+  }
+}
+extension MainCoordinator: YourViewControllerCoordinatorDelegate {
+  func push(_ coordinator: CoordinatorClient?) {
+  }
+}
+```
+Inside MainCoordinator
+
+```
+let childCoordinator = ViewCoordinator<YourViewController>(self.coordinator.navigationController, delegate: self)
+```
 In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
+
+```
+class TabCoordinator: TabCoordinateClient {
+  var coordinator: TabCoordinatorDecorator!
+  required init() {}
+  func setRoot() {
+    self.coordinator.setRoot()
+  }
+  func setUpChildCoordinators() {
+    setupTabOneJourney()
+    setupTabTwoJourney()
+    setupTabViews()
+  }
+  func setupTabViews() {
+      // setup tabview
+  }
+  private func setupTabOneJourney() {
+     // configure main coordinator
+  }
+  private func setupTabTwoJourney() {
+    // configure main coordinator
+  }
+}
+```
 
 For detailed steps kindly refer the CoordinatorSampleApp.
 
