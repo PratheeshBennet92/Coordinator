@@ -6,28 +6,29 @@
 //
 
 import XCTest
+import Coordinator
 @testable import CoordinatorSampleApp
 
 class CoordinatorSampleAppTests: XCTestCase {
+  var tabCoordinator: TabCoordinator?
+  override func setUpWithError() throws {
+    tabCoordinator = TabCoordinator(coordinator: TabCoordinatorDecorator(window: UIWindow(frame: UIScreen.main.bounds)))
+    tabCoordinator?.setRoot()
+    tabCoordinator?.setUpChildCoordinators()
+  }
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+  override func tearDownWithError() throws {
+      // Put teardown code here. This method is called after the invocation of each test method in the class.
+  }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+func testTabCoordinator() {
+  XCTAssert(tabCoordinator?.coordinator?.childCoordinators?.count == 2)
+  XCTAssert(tabCoordinator?.coordinator?.childCoordinators?[0].coordinator.navigationController != nil)
+  XCTAssert(tabCoordinator?.coordinator?.childCoordinators?[1].coordinator.navigationController != nil)
+ 
+}
+func testRootViews() {
+  XCTAssert(tabCoordinator?.coordinator?.childCoordinators?[0].coordinator.navigationController.viewControllers[0] as? Tab1ViewController1  != nil)
+  XCTAssert(tabCoordinator?.coordinator?.childCoordinators?[1].coordinator.navigationController.viewControllers[0] as? Tab2ViewController1  != nil)
+ }
 }
