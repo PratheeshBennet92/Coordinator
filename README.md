@@ -83,7 +83,7 @@ class YourViewController: UIViewController, CoordinateableView {
 For detailed steps kindly refer the CoordinatorSampleApp.
 
 ## Sonar Report
-![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Coordinator.jpg)
+![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Sonar.png)
 
 ## LICENSE
 
