@@ -1,0 +1,212 @@
+Analyzing 23 files:
+...............S..S....
+
+********** ./Coordinator/Core/MainCoordinator/Core/BaseCoordinator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/BaseCoordinator.swift:3:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+
+********** ./Coordinator/Core/MainCoordinator/Core/Coordinator.swift **********
+./Coordinator/Core/MainCoordinator/Core/Coordinator.swift could not be parsed successfully, skipping...
+
+********** ./Coordinator/Core/MainCoordinator/Core/CoordinatorClient.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/CoordinatorClient.swift:2:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+
+********** ./Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:3:3: warning: [comment-whitespace] Multiline comment should start with whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:3:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:5:101: warning: [max-line-length] Line is over maximum character limit (124/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:9:5: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:9:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:17:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:19:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:22:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:29:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift:12:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:4:101: warning: [max-line-length] Line is over maximum character limit (170/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:6:25: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:7:26: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:8:20: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:14:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:16:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:17:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:19:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:20:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:22:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:23:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:25:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:3:101: warning: [max-line-length] Line is over maximum character limit (185/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:5:101: warning: [max-line-length] Line is over maximum character limit (174/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:6:101: warning: [max-line-length] Line is over maximum character limit (127/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:8:30: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:8:76: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:9:44: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:10:13: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:16:101: warning: [max-line-length] Line is over maximum character limit (164/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:16:161: warning: [parenthesis-whitespace] Parentheses content should not end with whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:18:35: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:21:68: warning: [min-name-length] Type name is less than minimum character limit (1/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:24:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:26:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:28:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:30:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:32:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:34:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:36:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:38:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:14:5: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:15:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:18:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:19:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:21:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Coordinator/Core/TabBarCoordinator/Core/TabbarCoordinatable.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Core/TabbarCoordinatable.swift:10:5: warning: [comment-whitespace] Single-line comment should start with whitespace
+
+********** ./Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift:6:101: warning: [max-line-length] Line is over maximum character limit (112/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift:9:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+
+********** ./CoordinatorSampleApp/AppDelegate.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/AppDelegate.swift:12:13: warning: [colon-whitespace] Colon at column 13 should have exactly one space after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/AppDelegate.swift:14:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/AppDelegate.swift:14:101: warning: [max-line-length] Line is over maximum character limit (143/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/AppDelegate.swift:23:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/AppDelegate.swift:25: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:6:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:8:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:9:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:10:101: warning: [max-line-length] Line is over maximum character limit (126/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:13:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:16:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:17:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:20:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:23:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:23:8: warning: [min-name-length] Function name is less than minimum character limit (3/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:25:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:6:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:8:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:9:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:10:101: warning: [max-line-length] Line is over maximum character limit (126/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:13:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:16:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:17:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:20:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:23:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:23:8: warning: [min-name-length] Function name is less than minimum character limit (3/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:25:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:7:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:9:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:14:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:15:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:17:44: warning: [trailing-closure] Closure is the function's final argument and may be passed as a trailing closure instead
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:22:73: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:23:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:24:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:28:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:29:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:33:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/Views/Tab1ViewController1.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:18:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:19:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:21:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:22:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController1.swift:24:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/Views/Tab1ViewController2.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController2.swift:4:8: warning: [min-name-length] Function name is less than minimum character limit (3/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController2.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController2.swift:13:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController2.swift:14:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab1ViewController2.swift:19:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/Views/Tab2ViewController1.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController1.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController1.swift:18:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController1.swift:19:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController1.swift:21:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleApp/Views/Tab2ViewController2.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController2.swift:4:8: warning: [min-name-length] Function name is less than minimum character limit (3/4)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController2.swift:10:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController2.swift:13:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController2.swift:14:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleApp/Views/Tab2ViewController2.swift:19:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:15:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:16:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:23:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:28:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:29:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:30:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:31:2: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:32:1: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:33:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:34:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:35:3: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:36:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:38:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:39:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:40:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:42:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:46:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:47:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:49:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:55:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:56:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:58:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:62:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:63:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:65:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:71:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift **********
+./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift could not be parsed successfully, skipping...
+
+********** ./CoordinatorTests/CoordinatorTests.swift **********
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:7:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:8:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:15:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:20:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:21:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:22:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:23:2: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:24:1: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:25:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:26:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:27:3: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:28:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:30:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:31:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:32:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:34:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:38:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:39:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:41:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:47:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:48:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:50:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:54:4: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:55:3: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:57:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift:63:4: warning: [function-whitespace] Function should have at least one blank line after it
+
+Analyzed 21 files, skipped 2 files, and detected 163 violations (0 errors, 163 warnings).
+

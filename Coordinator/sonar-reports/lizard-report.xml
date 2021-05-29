@@ -1,0 +1,575 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="init(...) at ./Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift:15">
+			<value>1</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:9">
+			<value>2</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:15">
+			<value>3</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="start(...) at ./Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift:19">
+			<value>4</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:16">
+			<value>5</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="push(...) at ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:24">
+			<value>6</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="present(...) at ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:28">
+			<value>7</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:32">
+			<value>8</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="dismiss(...) at ./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift:36">
+			<value>9</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./Coordinator/Core/MainCoordinator/Interface/Protocols/MainCoordinateClient.swift:12">
+			<value>10</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:10">
+			<value>11</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="push(...) at ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:14">
+			<value>12</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="present(...) at ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:17">
+			<value>13</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:20">
+			<value>14</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="dismiss(...) at ./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift:23">
+			<value>15</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift:6">
+			<value>16</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="start(...) at ./Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift:10">
+			<value>17</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="addChildCoordinator(...) at ./Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:17">
+			<value>18</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="removeChildCoordinator(...) at ./Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift:22">
+			<value>19</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="setUpWithError(...) at ./CoordinatorTests/CoordinatorTests.swift:7">
+			<value>20</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="tearDownWithError(...) at ./CoordinatorTests/CoordinatorTests.swift:14">
+			<value>21</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testTabCoordinator(...) at ./CoordinatorTests/CoordinatorTests.swift:18">
+			<value>22</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="testRootViews(...) at ./CoordinatorTests/CoordinatorTests.swift:24">
+			<value>23</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinator(...) at ./CoordinatorTests/CoordinatorTests.swift:28">
+			<value>24</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPush(...) at ./CoordinatorTests/CoordinatorTests.swift:32">
+			<value>25</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPop(...) at ./CoordinatorTests/CoordinatorTests.swift:39">
+			<value>26</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPresent(...) at ./CoordinatorTests/CoordinatorTests.swift:48">
+			<value>27</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorDismiss(...) at ./CoordinatorTests/CoordinatorTests.swift:55">
+			<value>28</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:5">
+			<value>29</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:6">
+			<value>30</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="showFirstViewController(...) at ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:9">
+			<value>31</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="push(...) at ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:16">
+			<value>32</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="pop(...) at ./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift:23">
+			<value>33</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:5">
+			<value>34</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:6">
+			<value>35</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="showFirstViewController(...) at ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:9">
+			<value>36</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="push(...) at ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:16">
+			<value>37</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="pop(...) at ./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift:23">
+			<value>38</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="init(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:6">
+			<value>39</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="setRoot(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:7">
+			<value>40</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="setUpChildCoordinators(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:10">
+			<value>41</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="setupTabViews(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:15">
+			<value>42</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<item name="setupTabOneJourney(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:24">
+			<value>43</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="setupTabTwoJourney(...) at ./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift:29">
+			<value>44</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at ./CoordinatorSampleApp/Views/Tab2ViewController2.swift:10">
+			<value>45</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="viewWillDisappear(...) at ./CoordinatorSampleApp/Views/Tab2ViewController2.swift:14">
+			<value>46</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="deinit(...) at ./CoordinatorSampleApp/Views/Tab2ViewController2.swift:20">
+			<value>47</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at ./CoordinatorSampleApp/Views/Tab2ViewController1.swift:10">
+			<value>48</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<item name="buttonAction(...) at ./CoordinatorSampleApp/Views/Tab2ViewController1.swift:19">
+			<value>49</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="deinit(...) at ./CoordinatorSampleApp/Views/Tab2ViewController1.swift:22">
+			<value>50</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at ./CoordinatorSampleApp/Views/Tab1ViewController1.swift:10">
+			<value>51</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<item name="buttonAction(...) at ./CoordinatorSampleApp/Views/Tab1ViewController1.swift:19">
+			<value>52</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="viewWillAppear(...) at ./CoordinatorSampleApp/Views/Tab1ViewController1.swift:22">
+			<value>53</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="deinit(...) at ./CoordinatorSampleApp/Views/Tab1ViewController1.swift:25">
+			<value>54</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at ./CoordinatorSampleApp/Views/Tab1ViewController2.swift:10">
+			<value>55</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="viewWillDisappear(...) at ./CoordinatorSampleApp/Views/Tab1ViewController2.swift:14">
+			<value>56</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="deinit(...) at ./CoordinatorSampleApp/Views/Tab1ViewController2.swift:20">
+			<value>57</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="application(...) at ./CoordinatorSampleApp/AppDelegate.swift:14">
+			<value>58</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="setUpWithError(...) at ./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift:12">
+			<value>59</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="tearDownWithError(...) at ./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift:21">
+			<value>60</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testExample(...) at ./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift:25">
+			<value>61</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testLaunchPerformance(...) at ./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift:34">
+			<value>62</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+		<item name="setUpWithError(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:15">
+			<value>63</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="tearDownWithError(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:22">
+			<value>64</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testTabCoordinator(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:26">
+			<value>65</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="testRootViews(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:32">
+			<value>66</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinator(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:36">
+			<value>67</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPush(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:40">
+			<value>68</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPop(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:47">
+			<value>69</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorPresent(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:56">
+			<value>70</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="testMainCoordinatorDismiss(...) at ./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift:63">
+			<value>71</value>
+			<value>9</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="4"/>
+		<average label="CCN" value="1"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="./Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift">
+			<value>1</value>
+			<value>14</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="./Coordinator/Core/TabBarCoordinator/Core/TabbarCoordinatable.swift">
+			<value>2</value>
+			<value>9</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift">
+			<value>3</value>
+			<value>19</value>
+			<value>3</value>
+			<value>3</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift">
+			<value>4</value>
+			<value>28</value>
+			<value>5</value>
+			<value>5</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Interface/Protocols/MainCoordinateClient.swift">
+			<value>5</value>
+			<value>12</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Interface/Protocols/CoordinatableView.swift">
+			<value>6</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift">
+			<value>7</value>
+			<value>23</value>
+			<value>5</value>
+			<value>5</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift">
+			<value>8</value>
+			<value>13</value>
+			<value>2</value>
+			<value>2</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift">
+			<value>9</value>
+			<value>21</value>
+			<value>4</value>
+			<value>2</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/BaseCoordinator.swift">
+			<value>10</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/CoordinatorClient.swift">
+			<value>11</value>
+			<value>7</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Coordinator/Core/MainCoordinator/Core/Coordinator.swift">
+			<value>12</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Coordinator/Coordinator.h">
+			<value>13</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./CoordinatorTests/CoordinatorTests.swift">
+			<value>14</value>
+			<value>59</value>
+			<value>9</value>
+			<value>9</value>
+		</item>
+		<item name="./CoordinatorSampleApp/MainCoordinators/TabOneCoordinator.swift">
+			<value>15</value>
+			<value>26</value>
+			<value>5</value>
+			<value>5</value>
+		</item>
+		<item name="./CoordinatorSampleApp/MainCoordinators/TabTwoCoordinator.swift">
+			<value>16</value>
+			<value>26</value>
+			<value>5</value>
+			<value>5</value>
+		</item>
+		<item name="./CoordinatorSampleApp/TabCoordinators/TabCoordinator.swift">
+			<value>17</value>
+			<value>34</value>
+			<value>6</value>
+			<value>6</value>
+		</item>
+		<item name="./CoordinatorSampleApp/Views/Tab2ViewController2.swift">
+			<value>18</value>
+			<value>23</value>
+			<value>4</value>
+			<value>3</value>
+		</item>
+		<item name="./CoordinatorSampleApp/Views/Tab2ViewController1.swift">
+			<value>19</value>
+			<value>25</value>
+			<value>3</value>
+			<value>3</value>
+		</item>
+		<item name="./CoordinatorSampleApp/Views/Tab1ViewController1.swift">
+			<value>20</value>
+			<value>28</value>
+			<value>4</value>
+			<value>4</value>
+		</item>
+		<item name="./CoordinatorSampleApp/Views/Tab1ViewController2.swift">
+			<value>21</value>
+			<value>23</value>
+			<value>4</value>
+			<value>3</value>
+		</item>
+		<item name="./CoordinatorSampleApp/AppDelegate.swift">
+			<value>22</value>
+			<value>16</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="./CoordinatorSampleAppUITests/CoordinatorSampleAppUITests.swift">
+			<value>23</value>
+			<value>19</value>
+			<value>5</value>
+			<value>4</value>
+		</item>
+		<item name="./CoordinatorSampleAppTests/CoordinatorSampleAppTests.swift">
+			<value>24</value>
+			<value>60</value>
+			<value>9</value>
+			<value>9</value>
+		</item>
+		<average label="NCSS" value="21"/>
+		<average label="CCN" value="3"/>
+		<average label="Functions" value="2"/>
+		<sum label="NCSS" value="505"/>
+		<sum label="CCN" value="78"/>
+		<sum label="Functions" value="71"/>
+		<average label="NCSS" value="4.56338028169"/>
+		<average label="CCN" value="1.0985915493"/>
+	</measure>
+</cppncss>
+

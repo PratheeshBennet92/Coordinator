@@ -3,4 +3,70 @@
    uuid = "E8B1782D-DE01-4821-AF3C-F92705C73F49"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D1B9783-EAF7-433F-9BBB-1ADA3B74845E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoordinatorTests/CoordinatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testMainCoordinatorDismiss()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D1B9783-EAF7-433F-9BBB-1ADA3B74845E - 24ba8834e04a3ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorTests.CoordinatorTests.testMainCoordinatorDismiss() -&gt; ()"
+                  moduleName = "CoordinatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "558">
+               </Location>
+               <Location
+                  uuid = "4D1B9783-EAF7-433F-9BBB-1ADA3B74845E - 24ba8834e04a3ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorTests.CoordinatorTests.testMainCoordinatorDismiss() -&gt; ()"
+                  moduleName = "CoordinatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator/CoordinatorTests/CoordinatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CE800B2-16D1-422A-A5E8-ABA24C7E63B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoordinatorTests/CoordinatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testMainCoordinatorPush()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

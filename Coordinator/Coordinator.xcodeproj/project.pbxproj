@@ -34,6 +34,13 @@
 		4A4A8C7F26529502003E2CED /* CoordinatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A8C7E26529502003E2CED /* CoordinatableView.swift */; };
 		4A4EB0FB2651AC2200B70994 /* TabTwoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EB0FA2651AC2200B70994 /* TabTwoCoordinator.swift */; };
 		4A65751926505F0C001C6156 /* TabOneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65751826505F0C001C6156 /* TabOneCoordinator.swift */; };
+		4A6C7A15266298D900D9B6AB /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A0C266298D900D9B6AB /* TabCoordinator.swift */; };
+		4A6C7A16266298D900D9B6AB /* Tab2ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A0E266298D900D9B6AB /* Tab2ViewController2.swift */; };
+		4A6C7A17266298D900D9B6AB /* Tab2ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A0F266298D900D9B6AB /* Tab2ViewController1.swift */; };
+		4A6C7A18266298D900D9B6AB /* Tab1ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A10266298D900D9B6AB /* Tab1ViewController1.swift */; };
+		4A6C7A19266298D900D9B6AB /* Tab1ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A11266298D900D9B6AB /* Tab1ViewController2.swift */; };
+		4A6C7A1A266298D900D9B6AB /* TabOneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */; };
+		4A6C7A1B266298D900D9B6AB /* TabTwoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +104,13 @@
 		4A4A8C7E26529502003E2CED /* CoordinatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatableView.swift; sourceTree = "<group>"; };
 		4A4EB0FA2651AC2200B70994 /* TabTwoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoCoordinator.swift; sourceTree = "<group>"; };
 		4A65751826505F0C001C6156 /* TabOneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneCoordinator.swift; sourceTree = "<group>"; };
+		4A6C7A0C266298D900D9B6AB /* TabCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		4A6C7A0E266298D900D9B6AB /* Tab2ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController2.swift; sourceTree = "<group>"; };
+		4A6C7A0F266298D900D9B6AB /* Tab2ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController1.swift; sourceTree = "<group>"; };
+		4A6C7A10266298D900D9B6AB /* Tab1ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController1.swift; sourceTree = "<group>"; };
+		4A6C7A11266298D900D9B6AB /* Tab1ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController2.swift; sourceTree = "<group>"; };
+		4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneCoordinator.swift; sourceTree = "<group>"; };
+		4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +190,9 @@
 		4A464F87264AFF0E002350BA /* CoordinatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				4A6C7A12266298D900D9B6AB /* MainCoordinators */,
+				4A6C7A0B266298D900D9B6AB /* TabCoordinators */,
+				4A6C7A0D266298D900D9B6AB /* Views */,
 				4A464F88264AFF0E002350BA /* CoordinatorTests.swift */,
 				4A464F8A264AFF0E002350BA /* Info.plist */,
 			);
@@ -332,6 +349,37 @@
 			);
 			path = Wrapper;
 			sourceTree = "<group>";
+		};
+		4A6C7A0B266298D900D9B6AB /* TabCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7A0C266298D900D9B6AB /* TabCoordinator.swift */,
+			);
+			name = TabCoordinators;
+			path = CoordinatorSampleApp/TabCoordinators;
+			sourceTree = SOURCE_ROOT;
+		};
+		4A6C7A0D266298D900D9B6AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7A0E266298D900D9B6AB /* Tab2ViewController2.swift */,
+				4A6C7A0F266298D900D9B6AB /* Tab2ViewController1.swift */,
+				4A6C7A10266298D900D9B6AB /* Tab1ViewController1.swift */,
+				4A6C7A11266298D900D9B6AB /* Tab1ViewController2.swift */,
+			);
+			name = Views;
+			path = CoordinatorSampleApp/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		4A6C7A12266298D900D9B6AB /* MainCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */,
+				4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */,
+			);
+			name = MainCoordinators;
+			path = CoordinatorSampleApp/MainCoordinators;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -551,7 +599,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6C7A1A266298D900D9B6AB /* TabOneCoordinator.swift in Sources */,
+				4A6C7A15266298D900D9B6AB /* TabCoordinator.swift in Sources */,
+				4A6C7A18266298D900D9B6AB /* Tab1ViewController1.swift in Sources */,
+				4A6C7A17266298D900D9B6AB /* Tab2ViewController1.swift in Sources */,
+				4A6C7A19266298D900D9B6AB /* Tab1ViewController2.swift in Sources */,
 				4A464F89264AFF0E002350BA /* CoordinatorTests.swift in Sources */,
+				4A6C7A16266298D900D9B6AB /* Tab2ViewController2.swift in Sources */,
+				4A6C7A1B266298D900D9B6AB /* TabTwoCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

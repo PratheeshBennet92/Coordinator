@@ -1,0 +1,6 @@
+projectKey=com.pratheesh.coordinator.Coordinator
+serverUrl=http://localhost:9000
+serverVersion=8.9.0.43852
+dashboardUrl=http://localhost:9000/dashboard?id=com.pratheesh.coordinator.Coordinator
+ceTaskId=AXm5YtnjKbWKOCWbXcF0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXm5YtnjKbWKOCWbXcF0

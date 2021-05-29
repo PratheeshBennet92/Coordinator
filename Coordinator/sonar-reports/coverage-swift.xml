@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1.0000000000000000" branch-rate="1.0000000000000000" lines-covered="76" lines-valid="76" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1622312910" version="Slather 2.4.7">
+  <sources>
+    <source>/Users/pratheesh/Documents/CoordinatorFrameworkWorkingCopy/Coordinator/Coordinator</source>
+  </sources>
+  <packages>
+    <package name="Coordinator.Core.MainCoordinator.Core" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="MainCoordinatable" filename="Coordinator/Core/MainCoordinator/Core/MainCoordinatable.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="17" branch="false" hits="15"/>
+            <line number="18" branch="false" hits="15"/>
+            <line number="19" branch="false" hits="15"/>
+            <line number="22" branch="false" hits="4"/>
+            <line number="23" branch="false" hits="4"/>
+            <line number="24" branch="false" hits="4"/>
+            <line number="25" branch="false" hits="4"/>
+            <line number="26" branch="false" hits="4"/>
+            <line number="27" branch="false" hits="3"/>
+            <line number="28" branch="false" hits="4"/>
+            <line number="29" branch="false" hits="4"/>
+          </lines>
+        </class>
+        <class name="MainCoordinatorDecorator" filename="Coordinator/Core/MainCoordinator/Core/MainCoordinatorDecorator.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="21"/>
+            <line number="7" branch="false" hits="21"/>
+            <line number="8" branch="false" hits="21"/>
+            <line number="9" branch="false" hits="21"/>
+            <line number="10" branch="false" hits="21"/>
+            <line number="11" branch="false" hits="21"/>
+            <line number="12" branch="false" hits="21"/>
+          </lines>
+        </class>
+        <class name="NavigateDecorator" filename="Coordinator/Core/MainCoordinator/Core/NavigateDecorator.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="false" hits="19"/>
+            <line number="11" branch="false" hits="19"/>
+            <line number="12" branch="false" hits="19"/>
+            <line number="13" branch="false" hits="19"/>
+            <line number="14" branch="false" hits="2"/>
+            <line number="15" branch="false" hits="2"/>
+            <line number="16" branch="false" hits="2"/>
+            <line number="17" branch="false" hits="2"/>
+            <line number="18" branch="false" hits="2"/>
+            <line number="19" branch="false" hits="2"/>
+            <line number="20" branch="false" hits="15"/>
+            <line number="21" branch="false" hits="15"/>
+            <line number="22" branch="false" hits="15"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Coordinator.Core.MainCoordinator.Interface.Protocols" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="MainCoordinateClient" filename="Coordinator/Core/MainCoordinator/Interface/Protocols/MainCoordinateClient.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="false" hits="21"/>
+            <line number="13" branch="false" hits="21"/>
+            <line number="14" branch="false" hits="21"/>
+            <line number="15" branch="false" hits="21"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Coordinator.Core.MainCoordinator.Interface.Wrapper" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="ViewCoordinator" filename="Coordinator/Core/MainCoordinator/Interface/Wrapper/ViewCoordinator.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="false" hits="2"/>
+            <line number="11" branch="false" hits="2"/>
+            <line number="12" branch="false" hits="2"/>
+            <line number="16" branch="false" hits="19"/>
+            <line number="17" branch="false" hits="19"/>
+            <line number="18" branch="false" hits="19"/>
+            <line number="19" branch="false" hits="19"/>
+            <line number="20" branch="false" hits="19"/>
+            <line number="21" branch="false" hits="19"/>
+            <line number="22" branch="false" hits="19"/>
+            <line number="24" branch="false" hits="2"/>
+            <line number="25" branch="false" hits="2"/>
+            <line number="26" branch="false" hits="2"/>
+            <line number="28" branch="false" hits="2"/>
+            <line number="29" branch="false" hits="2"/>
+            <line number="30" branch="false" hits="2"/>
+            <line number="32" branch="false" hits="15"/>
+            <line number="33" branch="false" hits="15"/>
+            <line number="34" branch="false" hits="15"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="38" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Coordinator.Core.TabBarCoordinator.Core" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="TabCoordinatorDecorator" filename="Coordinator/Core/TabBarCoordinator/Core/TabCoordinatorDecorator.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="7"/>
+            <line number="10" branch="false" hits="7"/>
+            <line number="11" branch="false" hits="7"/>
+            <line number="12" branch="false" hits="7"/>
+            <line number="13" branch="false" hits="7"/>
+            <line number="15" branch="false" hits="7"/>
+            <line number="16" branch="false" hits="7"/>
+            <line number="17" branch="false" hits="7"/>
+            <line number="18" branch="false" hits="7"/>
+            <line number="19" branch="false" hits="7"/>
+            <line number="20" branch="false" hits="7"/>
+            <line number="21" branch="false" hits="7"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Coordinator.Core.TabBarCoordinator.Interface.Protocols" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="TabCoordinateClient" filename="Coordinator/Core/TabBarCoordinator/Interface/Protocols/TabCoordinateClient.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="7"/>
+            <line number="16" branch="false" hits="7"/>
+            <line number="17" branch="false" hits="7"/>
+            <line number="18" branch="false" hits="7"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

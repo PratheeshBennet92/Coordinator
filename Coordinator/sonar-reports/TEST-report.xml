@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CoordinatorTests.xctest' tests='7' failures='0'>
+  <testsuite name='CoordinatorTests.CoordinatorTests' tests='7' failures='0'>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testMainCoordinator' time='0.041'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testMainCoordinatorDismiss' time='0.008'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testMainCoordinatorPop' time='0.006'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testMainCoordinatorPresent' time='0.007'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testMainCoordinatorPush' time='0.007'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testRootViews' time='0.005'/>
+    <testcase classname='CoordinatorTests.CoordinatorTests' name='testTabCoordinator' time='0.005'/>
+  </testsuite>
+</testsuites>
