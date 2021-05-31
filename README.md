@@ -44,7 +44,7 @@ Each child coordinator is an instance of generic class ViewCoordinator. The chil
 extension MainCoordinator: YourViewControllerCoordinatorDelegate {
   func push(_ coordinator: CoordinatorClient?) {
   let childCoordinator = ViewCoordinator<YourNextViewController>(self.coordinator.navigationController, delegate: self)
-  //access view controller using childCoordinator.view
+  //access view controller using childCoordinator.view for  configurations and dependacy injections
   childCoordinator.push()
   self.coordinator.addChildCoordinator(childCoordinator)
   }
