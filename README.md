@@ -70,10 +70,14 @@ class TabCoordinator: TabCoordinateClient {
       // setup tabview
   }
   private func setupTabOneJourney() {
-     // configure main coordinator
+    let tabOneMainCoordinator = MainCoordinator(mainCoordinator: MainCoordinatorDecorator())
+    tabOneMainCoordinator.setRoot()
+    coordinator.childCoordinators?.append(tabOneMainCoordinator)
   }
   private func setupTabTwoJourney() {
-    // configure main coordinator
+    let tabTwoMainCoordinator = MainCoordinator(mainCoordinator: MainCoordinatorDecorator())
+    tabTwoMainCoordinator.setRoot()
+    coordinator.childCoordinators?.append(tabTwoMainCoordinator)
   }
 }
 ```
