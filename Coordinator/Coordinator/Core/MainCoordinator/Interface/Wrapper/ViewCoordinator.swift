@@ -7,7 +7,7 @@ import UIKit
  */
 public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: CoordinateableView {
   private let decorator: NavigateDecorator<T>
-  var view: T? {
+  public var view: T? {
     return decorator.hubViewController
   }
   var presenter: UINavigationController
