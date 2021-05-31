@@ -13,6 +13,8 @@ The coordinators can manage the navigations of the relative context such as UIVi
 
 The coordinator frameworks does most of the heavylifting by implementing the navigation logics onbehalf of the host application. To engineer the coordinator pattern, the coordinator framework uses Generic Decorators to do the actual navigation and presentation behaviours. Decorator is a structural pattern that allows adding new behaviours to objects dynamically by placing them inside special wrapper objects. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators. Each child coordinator is spawned by its parent main coordinator. In the case of tabbar based application there will be a dedicated TabCoordinatorr that manages all the main coordinators associated with each tab.
 
+The Coordinator.framework helps to create the coordinator objects in your app. MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that manages the child coordinators which inturn manages the rootview, navigations and presentations. Each child coordinator is an instance of generic class ViewCoordinator. In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
+
 
 ## Coordinator Framework Architecture
 ![alt text](https://github.com/PratheeshBennet92/Coordinator/blob/main/Coordinator.jpg)
@@ -20,30 +22,35 @@ The coordinator frameworks does most of the heavylifting by implementing the nav
 ## How to use?
 You can drag and place the Coordinator.framework in your application and create the coordinators and take care of the navigations and presentations. 
 
-MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that manages the child coordinators which inturn manages the rootview, navigations and presentations.
-
 #### MainCoordinator
+MainCoordinators conforms to MainCoordinateClient protocol and decorates the MainCoordinatorDecorator that manages the child coordinators which inturn manages the rootview, navigations and presentations.
 ```
 class MainCoordinator: MainCoordinateClient {
   var coordinator: MainCoordinatorDecorator!
   required init() {}
   func setRoot() {
-   // set rootview
+  let childCoordinator = ViewCoordinator<YourViewController>(self.coordinator.navigationController, delegate: self)
+  childCoordinator.setRoot()
+  self.coordinator.addChildCoordinator(childCoordinator)
   }
 }
-extension MainCoordinator: YourViewControllerCoordinatorDelegate {
-  func push(_ coordinator: CoordinatorClient?) {
-  }
-}
+
 ```
 #### ChildCoordinator
+Each child coordinator is an instance of generic class ViewCoordinator. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators. Each child coordinator is spawned by its parent main coordinator.
 
 ```
-let childCoordinator = ViewCoordinator<YourViewController>(self.coordinator.navigationController, delegate: self)
+extension MainCoordinator: YourViewControllerCoordinatorDelegate {
+  func push(_ coordinator: CoordinatorClient?) {
+  let childCoordinator = ViewCoordinator<YourNextViewController>(self.coordinator.navigationController, delegate: self)
+  childCoordinator.push()
+  self.coordinator.addChildCoordinator(childCoordinator)
+  }
+}
 ```
-In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
 
 #### TabCoordinator
+In the case of tabbar based application the TabCoordinator conforms to TabCoordinateClient and decorates the TabCoordinatorDecorator that enables to set the window and manages the main coordinators associated with each tab.
 ```
 class TabCoordinator: TabCoordinateClient {
   var coordinator: TabCoordinatorDecorator!
