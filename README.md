@@ -38,12 +38,13 @@ class MainCoordinator: MainCoordinateClient {
 
 ```
 #### ChildCoordinator
-Each child coordinator is an instance of generic class ViewCoordinator. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators. Each child coordinator is spawned by its parent main coordinator.
+Each child coordinator is an instance of generic class ViewCoordinator. The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators. Each child coordinator is spawned by its parent main coordinator. Access and inject properties to the view controller using ChildCoordinator.view property
 
 ```
 extension MainCoordinator: YourViewControllerCoordinatorDelegate {
   func push(_ coordinator: CoordinatorClient?) {
   let childCoordinator = ViewCoordinator<YourNextViewController>(self.coordinator.navigationController, delegate: self)
+  //access view controller using childCoordinator.view
   childCoordinator.push()
   self.coordinator.addChildCoordinator(childCoordinator)
   }
