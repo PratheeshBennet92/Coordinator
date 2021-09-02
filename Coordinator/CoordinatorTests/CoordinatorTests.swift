@@ -1,6 +1,5 @@
 import XCTest
 @testable import Coordinator
-
 class CoordinatorTests: XCTestCase {
   var tabCoordinator: TabCoordinator?
   var mainCoordinator: TabOneCoordinator?
