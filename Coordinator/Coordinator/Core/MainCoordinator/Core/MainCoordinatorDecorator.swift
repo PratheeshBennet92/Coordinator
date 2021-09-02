@@ -5,6 +5,7 @@ public class MainCoordinatorDecorator: MainCoordinatable {
   public var navigationController: UINavigationController
   required public init() {
     self.navigationController = UINavigationController()
+    self.navigationController.navigationBar.isHidden = true
     start()
   }
   public func start() {

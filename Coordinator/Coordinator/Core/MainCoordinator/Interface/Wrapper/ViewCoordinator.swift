@@ -13,7 +13,7 @@ public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: Co
   var presenter: UINavigationController
   /// Add a child coordinator to the parent
   /// - Parameters: UINavigationController, child coordinator, UIModalPresentationStyle
-  public required init(_ presenter: UINavigationController, delegate: MainCoordinateClient? = nil, presentationStyle: UIModalPresentationStyle = .overFullScreen ) {
+  public required init(_ presenter: UINavigationController, delegate: MainCoordinateClient? = nil, presentationStyle: UIModalPresentationStyle = .currentContext ) {
     self.presenter = presenter
     decorator = NavigateDecorator<T>(presenter)
     decorator.hubViewController.modalPresentationStyle = presentationStyle
