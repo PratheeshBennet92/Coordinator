@@ -6,7 +6,7 @@ import UIKit
     - The child coordinators manages the navigations and presentations where as main coordinator manages the child coordinators
  */
 public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: CoordinateableView {
-  private let decorator: NavigateDecorator<T>
+  public let decorator: NavigateDecorator<T>
   public var view: T? {
     return decorator.hubViewController
   }
