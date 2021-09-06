@@ -24,6 +24,10 @@ public class ViewCoordinator<T: UIViewController>: CoordinatorClient where T: Co
   public func push() {
     decorator.push()
   }
+  /// Pop viewcontroller on the navigation controller
+  public func pop() {
+    decorator.pop()
+  }
   /// Push viewcontroller over the navigation controller
   public func present() {
     decorator.present()

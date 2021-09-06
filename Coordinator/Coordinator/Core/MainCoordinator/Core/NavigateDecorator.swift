@@ -14,6 +14,9 @@ public class NavigateDecorator<T: UIViewController>: Coordinator {
   public func push() {
     self.presenter.pushViewController(hubViewController, animated: true)
   }
+  public func pop() {
+    self.presenter.popViewController(animated: true)
+  }
   public func present() {
     self.presenter.present(hubViewController, animated: true, completion: nil)
   }

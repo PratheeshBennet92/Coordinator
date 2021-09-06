@@ -5,4 +5,5 @@ public protocol CoordinatorClient: AnyObject {
   func present()
   func setRoot()
   func dismiss()
+  func pop()
 }
