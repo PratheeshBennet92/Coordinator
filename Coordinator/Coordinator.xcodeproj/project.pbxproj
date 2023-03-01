@@ -111,6 +111,7 @@
 		4A6C7A11266298D900D9B6AB /* Tab1ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController2.swift; sourceTree = "<group>"; };
 		4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneCoordinator.swift; sourceTree = "<group>"; };
 		4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoCoordinator.swift; sourceTree = "<group>"; };
+		4A94B76729AE5F330062C3E5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,6 +521,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 4A464F70264AFF0E002350BA;
 			productRefGroup = 4A464F7B264AFF0E002350BA /* Products */;
@@ -666,6 +668,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4A4650CF264B06A2002350BA /* Base */,
+				4A94B76729AE5F330062C3E5 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
