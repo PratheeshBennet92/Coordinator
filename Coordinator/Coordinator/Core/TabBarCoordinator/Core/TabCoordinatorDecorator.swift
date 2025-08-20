@@ -8,6 +8,7 @@ public class TabCoordinatorDecorator: TabbarCoordinatable {
   /// - Parameters: MainCoordinatorDecorator
   public required init(window: UIWindow) {
     self.rootViewController = UITabBarController()
+    self.rootViewController.setupAppearance()
     self.window = window
     start()
   }

@@ -41,6 +41,8 @@
 		4A6C7A19266298D900D9B6AB /* Tab1ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A11266298D900D9B6AB /* Tab1ViewController2.swift */; };
 		4A6C7A1A266298D900D9B6AB /* TabOneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */; };
 		4A6C7A1B266298D900D9B6AB /* TabTwoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */; };
+		E06488612E561BDF004ACB64 /* Extension + NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064885F2E561BCB004ACB64 /* Extension + NavigationController.swift */; };
+		E06488622E561BE4004ACB64 /* Extension + TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064885E2E561BCB004ACB64 /* Extension + TabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		4A6C7A13266298D900D9B6AB /* TabOneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneCoordinator.swift; sourceTree = "<group>"; };
 		4A6C7A14266298D900D9B6AB /* TabTwoCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoCoordinator.swift; sourceTree = "<group>"; };
 		4A94B76729AE5F330062C3E5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E064885E2E561BCB004ACB64 /* Extension + TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + TabController.swift"; sourceTree = "<group>"; };
+		E064885F2E561BCB004ACB64 /* Extension + NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + NavigationController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 		4A464F7C264AFF0E002350BA /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				E06488602E561BCB004ACB64 /* Color Extensions */,
 				4A464F94264AFF21002350BA /* Core */,
 				4A464F7D264AFF0E002350BA /* Coordinator.h */,
 				4A464F7E264AFF0E002350BA /* Info.plist */,
@@ -382,6 +387,15 @@
 			path = CoordinatorSampleApp/MainCoordinators;
 			sourceTree = SOURCE_ROOT;
 		};
+		E06488602E561BCB004ACB64 /* Color Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E064885E2E561BCB004ACB64 /* Extension + TabController.swift */,
+				E064885F2E561BCB004ACB64 /* Extension + NavigationController.swift */,
+			);
+			path = "Color Extensions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -582,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06488612E561BDF004ACB64 /* Extension + NavigationController.swift in Sources */,
 				4A464FA1264AFF32002350BA /* NavigateDecorator.swift in Sources */,
 				4A464FA8264AFF32002350BA /* CoordinatorClient.swift in Sources */,
 				4A464FA6264AFF32002350BA /* TabbarCoordinatable.swift in Sources */,
@@ -590,6 +605,7 @@
 				4A464FA9264AFF32002350BA /* MainCoordinatable.swift in Sources */,
 				4A464FA2264AFF32002350BA /* TabCoordinatorDecorator.swift in Sources */,
 				4A464FA4264AFF32002350BA /* Coordinator.swift in Sources */,
+				E06488622E561BE4004ACB64 /* Extension + TabController.swift in Sources */,
 				4A4A8C7F26529502003E2CED /* CoordinatableView.swift in Sources */,
 				4A464FA7264AFF32002350BA /* MainCoordinatorDecorator.swift in Sources */,
 				4A464FA0264AFF32002350BA /* TabCoordinateClient.swift in Sources */,
@@ -810,6 +826,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -837,6 +854,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
