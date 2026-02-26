@@ -6,4 +6,5 @@ public protocol CoordinatorClient: AnyObject {
   func setRoot()
   func dismiss()
   func pop()
+  func popToRoot()
 }
